@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>demo page for github repos</title>
+    <style type="text/css">
+        body { background: #000; color: #fff; font: 16px/1.5 Georgia, Times New Roman, serif; padding-left: 3em; }
+        h1 { font-size: 1.8em; }
+        li { margin: 0.5em 0; }
+        a { color: #9cf; }
+        a:hover { color: #afa; }
+        a:active { color: #ff0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>在 github 建立项目演示页面</h1>
+    </header>
+    <section>
+        <ol>
+            <li>在本地新建 repo-demo 项目</li>
+            <li>初始化本地项目：git init</li>
+            <li>将所有文件加入项目：git add .</li>
+            <li>提交项目更新：git commit -m 'demo page for repo-demo'</li>
+            <li>为项目新建一个 gh-pages 分支：git branch gh-pages</li>
+            <li>切换到 gh-pages 分支：git checkout gh-pages</li>
+            <li>删除本地 master 分支（可选）：git branch -D master</li>
+            <li>在 github 新建 repo-demo 项目</li>
+            <li>添加远端路径：git remote add origin git@github.com:forcefront/repo-demo.git</li>
+            <li>推送本地的 gh-pages 分支至远端：git push origin gh-pages</li>
+            <li>查看示例项目：checkout <a href="http://github.com/forcefront/repo-demo">http://github.com/forcefront/repo-demo</a></li>
+            <li>访问项目演示地址：and visit <a href="http://forcefront.github.com/repo-demo">http://forcefront.github.com/repo-demo</a></li>
+        </ol>
+    </section>
+</body>
+</html>
