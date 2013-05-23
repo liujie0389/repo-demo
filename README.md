@@ -8,4 +8,4 @@ Build Your GitHub Pages
 
 **Try out the demo**
 
-+ http://forcefront.github.com/repo-demo/
++ http://forcefront.github.io/repo-demo/
